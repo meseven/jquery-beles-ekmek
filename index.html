@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>jQuery Beleş Ekmek</title>
+	<meta name="description" content="jQuery ile beleş ekmeğe hücum etmenin aksiyonunu yaşayın!">
+	<meta name="keywords" content="Javascript,jquery,mehmet seven,beleş ekmek jquery">
+	<meta name="author" content="Mehmet Seven">
+
+	<link rel="stylesheet" type="text/css" href="public/style.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.8.1/semantic.min.css"/>
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic" />
+
+	<meta property="og:title" content="jQuery Beleş Ekmek" />
+	<meta property="og:url" content="http://meseven.github.io/jquery-beles-ekmek/" />
+	<meta property="og:image" content="http://meseven.github.io/jquery-beles-ekmek/public/img/bread.png" />
+
+
+</head>
+<body>
+
+
+<div id="container">
+	<div class="circle">
+		<img src="public/img/bread.png" alt="beleş ekmek">
+		<span>BELES EKMEK</span>
+	</div>
+	<div class="loader">
+		Yükleniyor... <br>
+		Lütfen bilgisayarınızın sesini açınız.
+	</div>
+
+	<div class="bottom">
+		
+		<div class="share">
+			
+			<!-- twitter -->
+			<div class="share_area">
+				<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://meseven.github.io/jquery-beles-ekmek/" data-via="mehmeteseven" data-hashtags="belesekmek">Tweet</a>
+			</div>
+			
+			<!-- facebook -->
+			<div class="share_area">
+				<div class="fb-share-button" data-href="http://meseven.github.io/jquery-beles-ekmek/" data-layout="button_count"></div>
+			</div>
+			
+			<!-- g+ -->
+			<div class="share_area">
+				<div class="g-plus" data-action="share" data-annotation="bubble" data-href="http://meseven.github.io/jquery-beles-ekmek/"></div>
+			</div>
+
+
+			<!-- github star-->
+			<div class="share_area">
+				<a class="github-button" href="https://github.com/meseven/jquery-beles-ekmek" data-count-href="/meseven/jquery-beles-ekmek/stargazers" data-count-api="/repos/meseven/jquery-beles-ekmek#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star meseven/jquery-beles-ekmek on GitHub">Star</a>
+			</div>
+
+		</div>
+
+		<div class="dev">
+			<a href="http://mehmetseven.net/" target="_blank">Developed by <i class="angle fire extinguisher icon"></i> Mehmet Seven </a>
+		</div>
+	</div>
+
+</div>
+
+
+<div id="sound">
+	<audio controls>
+	  <source src="public/sound/hucum.mp3" type="audio/mpeg" >
+	  This features not support for your browser.
+	</audio>
+</div>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/velocity/1.2.2/velocity.min.js"></script>
+<script type="text/javascript" src="public/js/beles-ekmek.js"></script>
+
+
+<!-- social -->
+<script>
+
+	(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/tr_TR/sdk.js#xfbml=1&version=v2.3&appId=868559606530047";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+
+
+	!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+
+</script>
+
+<script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+
+<script src="https://apis.google.com/js/platform.js" async defer>
+  {lang: 'tr'}
+</script>
+
+<!-- #social -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-28248484-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+</body>
+</html>

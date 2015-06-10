@@ -1,0 +1,108 @@
+@CHARSET "UTF-8";
+
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: "Open Sans", arial, sans-serif;
+ }
+
+ul,li{
+	margin:0;
+	padding:0;
+	list-style-type: none
+}
+
+.asker {
+    position: absolute;
+    border: solid 1px #333;
+    color: #333;
+    padding: 2px;
+    width:55px;
+    height:23px;
+    text-align: center
+}
+
+.clear{
+	clear:both;
+}
+
+#sound{
+    display: none
+}
+
+.circle {
+    border-radius: 50%;
+    width: 600px;
+    height: 274px; 
+    margin:0 auto;
+    position: absolute;
+    text-align:center;
+    line-height: 200px;
+    font-weight: bold
+}
+
+.circle span{
+    position: absolute;
+    font-size:28px;
+    top:90px;
+    left:220px;
+}
+
+.loader{
+    width: 340px;
+    background: #333;
+    opacity: 0.8;
+    color:#fff;
+    text-align: center;
+    
+    font-size: 22px;
+    position: absolute;
+    top: 0;
+    line-height: 39px;
+    display: none
+}
+
+.bottom{
+    background: #333;
+    width:100%;
+    height:50px;
+    position: fixed;
+    bottom:0;
+    left:0;
+    text-align: center;
+    opacity: 0.8;
+    z-index: 99;
+}
+
+
+.bottom .dev{
+    position: absolute;
+    right:0;
+    top:0px;
+    font-size:14px;
+}
+
+.bottom .dev a{
+    color: #eee;
+    display: block;
+    margin:20px 5px 0 0;
+}
+
+.bottom .dev a:hover{
+    color: #999;
+}
+
+
+
+.bottom .share{
+    width:410px;
+    height: 100%;
+    margin:0 auto;
+    padding-top:18px;
+    text-align: center
+}
+
+.share .share_area{
+    margin-right:20px;
+    float: left
+}
